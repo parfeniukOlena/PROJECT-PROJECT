@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 body {
@@ -638,7 +639,7 @@ body {
 }
 
 
-@media (width:375px){
+@media (width:400px){
     .shapka-links{
         display: none;
     }
@@ -654,8 +655,75 @@ body {
     .glavny-zagolovok{
         font-size: 28px;
         width: 335px;
+        text-align: center;
     }
     .glavny-zagolovok br{
         display: none;
     }
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .shagi-ryad{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .covered-zagolovok{
+        font-size: 32px;
+    }
+
+    .blok-centr{
+        width: 335px;
+        height: 509px;
+
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        
+        gap: 20px;
+    }
+
+    .tryo-bloka-v-ryad{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .covered-blok-melon img{
+        width: 335px;
+        height: 476px;
+    }
+
+    .covered-blok-berries{
+        display: none;
+    }
+
+    .covered-kartinki-ryad{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .frukty-setka{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 0;
+    }
+
+
 }
